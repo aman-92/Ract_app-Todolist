@@ -10,9 +10,9 @@ export const AddTodo = ({addTodo}) => {
         if (!title || !desc) {
             alert("tilte or description is blank");
         } else {
-         addTodo = (title,desc);
-            setTitle("");
-            setDesc("");
+         addTodo(title,desc);
+            setTitle('');
+            setDesc('');
         }
     }
     return (
